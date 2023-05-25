@@ -1,0 +1,74 @@
+:root {
+    --g1: #810081;
+    --g2: black;
+}
+
+html {
+    background-image: url("ph.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 990px;
+}
+
+#area1 {
+    height: 300px;
+    width: 500px;
+    font-size: 30px;
+    color: navajowhite;
+    background: black;
+    text-align: center;
+    border-left: 2px solid #810081;
+    border-right: 2px solid #810081;
+
+}
+
+#input,
+#bu-send {
+    width: 530px;
+    height: 50px;
+    background: black;
+    font-size: 30px;
+    border: 2px solid #810081;
+    color: navajowhite;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: lowercase;
+
+}
+
+#dv1 {
+    overflow: hidden;
+    width: 600px;
+    height: 90px;
+    color: navajowhite;
+    transition: .8s ease;
+    border: 5px double #810081;
+    border-radius: 50px;
+    text-shadow: 2px 0px 0px #810081;
+    box-shadow: 1px 1px 30px 1px #810081;
+    background: rgba(0, 0, 0, 0.49);
+}
+
+#dv1:hover {
+    height: 570px;
+    transition: .8s ease;
+}
+#area2{
+    background: black;
+    border: 2px solid #810081;
+    color: white;
+
+}
+#area1::placeholder{
+    height: 900px;
+    background-image: url(nemo.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    background-position-y: -100px;
+    width: 500px;
+}
+.Time{
+    color: white
+}
